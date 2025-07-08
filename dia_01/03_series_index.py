@@ -36,4 +36,18 @@ idades = [32, 38, 30, 30, 31,
           27, 23, 36, 33, 39,
 ]
 
-index = []
+index = ["Teo", "Rafael", "Maisa", "Melissa", "Dana",
+         "Nah", "Dani", "Gio", "Mah", "Dio",
+         "Lu", "Aline", "Pedro", "Thi", "Matheus",
+]
+
+series_idades = pd.Series(idades, index=index)
+series_idades
+
+#%%
+
+series_idades["Pedro"]
+
+#%%
+
+series_idades.loc["Teo"]
